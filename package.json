@@ -12,6 +12,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "16.13.2"
+  },
   "bugs": {
     "url": "https://github.com/ethan501/The-Weather-Web/issues"
   },
