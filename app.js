@@ -22,7 +22,7 @@ app.post("/", function (req, res) {
   //console.log(req.body.cityName);
 
   const city = req.body.cityName;
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.APIKEY;
   const units = "metric";
   const weatherUrl =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
