@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/styles.css" rel="stylesheet">
+   
+    <title>The Weather Web</title>
+  </head>
+  <body>
+    <header><a id="head-text"href="/">THE WEATHER WEB</a></header>
+    <div class="main-content">
+      
+    <h2>The Weather In:<br><%=city%></h2>
+    <img src="<%=imageURL%>"></img>
+    <p>Currently there is <%=weatherDescription%> in <%=city%> with a temperature of <%=temp%> degrees celsius.</p>
+    <a id="note" href="/"><strong>Search for another city?</strong></a>
+  </div>
+
+   
+  </body>
+</html>
