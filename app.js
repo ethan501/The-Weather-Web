@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
   https.get(weatherUrl, function (response) {
    /*  console.log(response.statusCode); */
 
-    if (response.statusCode === 200) {
+    if (response.statusCode === 200 || response.statusCode === 304) {
       response.on("data", function (data) {
         const weatherData = JSON.parse(data);
         const temp = weatherData.main.temp;
